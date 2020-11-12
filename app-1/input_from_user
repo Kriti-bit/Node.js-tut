@@ -1,0 +1,17 @@
+const chalk = require('chalk')
+const validator=require('validator')
+
+const input = process.argv[2]
+
+if(input==='add')
+{
+    console.log('Adding to list!')//shows the functiong of if case in case add is entered by the user
+}
+else if(input==='remove')
+{
+    console.log('Removing from the list')//shows the functiong of else if case in case remove is entered by the user
+}
+
+console.log(process.argv[2])//display the value entered by the user(3rd line) after skipping the two default line
+
+console.log(process.argv)//displays three lines
