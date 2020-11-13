@@ -18,4 +18,6 @@ yargs.command({
     }
 
 })
-yargs.parse()
+yargs.parse()// Method -1 to display the output
+
+console.log(yargs.argv)// Method -2 to display the output
